@@ -1,14 +1,11 @@
-1. Setup database using postgresql according to the configurations given in settings file
-
-
-2. Use following commands to import generes and movies respectively from the MovieDB APIs.
+1. Use following commands to import generes and movies respectively from the MovieDB APIs.
 
 python manage.py import_generes
 
 python manage.py import_movies
 
 
-3. Go to /users/graphql/ to perform user queries and mutations like following:
+2. Go to /users/graphql/ to perform user queries and mutations like following:
 
 	a. Registration
 
@@ -26,7 +23,7 @@ python manage.py import_movies
 	g. All users list
 
 
-4. Go to /geek/graphql/ to perform movies queries and mutations like following:
+3. Go to /geek/graphql/ to perform movies queries and mutations like following:
 
 	a. View all movies
 
@@ -48,8 +45,8 @@ python manage.py import_movies
 	i. Delete watched movies list
 
 
-5. You need to be logged in to perform most of the functions. You can also use Authorization header and pass value "JWT 
+4. You need to be logged in to perform most of the functions. You can also use Authorization header and pass value "JWT 
 {TOKEN FROM THE LOGIN}".
 
 
-6. Refer to screenshots in "Screenshots" folder
+5. Refer to screenshots in "Screenshots" folder
