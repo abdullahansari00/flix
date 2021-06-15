@@ -25,7 +25,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 SECRET_KEY = 'django-insecure-a(i1=#+e2#4*fv$jn=(9co5vy_r9e+&#y3#3k-=s%4huh*_7@w'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["https://vesatogoflix.herokuapp.com", "127.0.0.1"]
 
