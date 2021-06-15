@@ -1,8 +1,8 @@
 1. Use following commands to import generes and movies respectively from the MovieDB APIs.
 
-python manage.py import_generes
+	python manage.py import_genres
 
-python manage.py import_movies
+	python manage.py import_movies
 
 
 2. Go to /users/graphql/ to perform user queries and mutations like following:
