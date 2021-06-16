@@ -4,6 +4,12 @@ import requests
 from .models import *
 
 
+class GenreType(DjangoObjectType):
+	class Meta:
+		model = Genre
+		fields = "__all__"
+
+
 class MovieType(DjangoObjectType):
 	class Meta:
 		model = Movie
